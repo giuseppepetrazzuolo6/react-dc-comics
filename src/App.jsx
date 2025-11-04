@@ -6,7 +6,7 @@ function App() {
       <Header />
       <main>
         <section className='bg-dark'>
-          <div className="container d-flex align-center">
+          <div className="container d-flex align-items-center">
             <h3 className='text-white'>--&gt; Content goes here &lt;--</h3>
           </div>
         </section>
