@@ -1,2 +1,7 @@
 @import url("bootstrap");
 @import url("bootstrap-icons");
+
+.container {
+  min-height: 20vh;
+
+}
