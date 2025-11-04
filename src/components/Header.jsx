@@ -4,7 +4,7 @@ export default function Header() {
 
     return (
         <header>
-            <div className="d-flex justify-content-around py-3">
+            <div className="container d-flex justify-content-between py-3">
                 <img width={70} className="logo" src={logo} alt="Logo DC" />
                 <nav className="navbar navbar-expand navbar-light">
                     <div className="nav navbar-nav">
