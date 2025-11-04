@@ -1,6 +1,21 @@
 @import url("bootstrap");
 @import url("bootstrap-icons");
 
-.container {
-  min-height: 20vh;
+
+.bg-dark {
+  .container {
+    min-height: 20vh;
+  }
+}
+
+.bg-primary {
+  .container {
+    min-height: 30vh;
+
+    img {
+      width: 50px;
+      margin-right: 5px;
+    }
+  }
+
 }
