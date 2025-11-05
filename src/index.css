@@ -8,6 +8,22 @@
   }
 }
 
+.jumbotron {
+  background-image: url(./assets/img/jumbotron.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 350px;
+  position: relative;
+
+  .series {
+    width: 200px;
+    position: absolute;
+    top: 95%;
+    left: 100px;
+  }
+
+}
+
 .card-img-top {
   height: 166px;
   overflow: hidden

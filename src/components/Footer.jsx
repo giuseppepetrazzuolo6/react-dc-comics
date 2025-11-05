@@ -59,7 +59,7 @@ export default function Footer() {
             <section className="footer-bottom bg-dark">
                 <div className="container d-flex align-items-center justify-content-between">
                     <div>
-                        <button><a href="">SIGN-UP NOW!</a></button>
+                        <button className='butn'><a href="">SIGN-UP NOW!</a></button>
                     </div>
                     <div className='d-flex align-items-center gx-3'>
                         <h5 className='text-primary mb-0 mx-3'>FOLLOW US</h5>
