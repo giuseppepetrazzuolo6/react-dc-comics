@@ -1,3 +1,5 @@
+import Card from './Card'
+import Jumbotron from './Jumbotron'
 import digital from '../assets/img/buy-comics-digital-comics.png'
 import merch from '../assets/img/buy-comics-merchandise.png'
 import sub from '../assets/img/buy-comics-subscriptions.png'
@@ -8,11 +10,8 @@ export default function Main() {
 
     return (
         <main>
-            <section className='main-top bg-dark'>
-                <div className="container d-flex align-items-center">
-                    <h3 className='text-white'>--&gt; Content goes here &lt;--</h3>
-                </div>
-            </section>
+            <Jumbotron />
+            <Card />
             <section className="main-bottom bg-primary">
                 <div className="container d-flex align-items-center justify-content-around">
                     <div className="d-flex align-items-center">

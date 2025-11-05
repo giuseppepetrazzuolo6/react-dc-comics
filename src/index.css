@@ -8,6 +8,16 @@
   }
 }
 
+.card-img-top {
+  height: 166px;
+  overflow: hidden
+}
+
+.img-comics {
+  max-width: 100%;
+  height: auto;
+}
+
 .bg-primary {
   .container {
     min-height: 30vh;
@@ -34,7 +44,7 @@ footer {
   background-size: cover;
 }
 
-button {
+.butn {
   background-color: transparent;
   padding: 10px;
   border: 2px solid rgba(13, 110, 253, 1);
