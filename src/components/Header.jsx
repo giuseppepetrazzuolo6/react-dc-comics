@@ -1,11 +1,11 @@
-import logo from '../assets/img/dc-logo.png'
+import Logo from './Logo'
 
 export default function Header() {
 
     return (
         <header>
             <div className="container d-flex justify-content-between py-3">
-                <img width={70} className="logo" src={logo} alt="Logo DC" />
+                <Logo />
                 <nav className="navbar navbar-expand navbar-light">
                     <div className="nav navbar-nav">
                         <a className="nav-item nav-link" href="#">Characters</a>
