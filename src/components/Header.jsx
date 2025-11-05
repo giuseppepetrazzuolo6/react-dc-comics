@@ -9,7 +9,7 @@ export default function Header() {
                 <nav className="navbar navbar-expand navbar-light">
                     <div className="nav navbar-nav">
                         <a className="nav-item nav-link" href="#">Characters</a>
-                        <a className="nav-item nav-link border-bottom border-4 border-primary" href="#">Comics</a>
+                        <a className="nav-item nav-link text-primary border-bottom border-4 border-primary" href="#">Comics</a>
                         <a className="nav-item nav-link" href="#">Movie</a>
                         <a className="nav-item nav-link" href="#">TV</a>
                         <a className="nav-item nav-link" href="#">Games</a>

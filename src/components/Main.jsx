@@ -8,12 +8,12 @@ export default function Main() {
 
     return (
         <main>
-            <section className='bg-dark'>
+            <section className='main-top bg-dark'>
                 <div className="container d-flex align-items-center">
                     <h3 className='text-white'>--&gt; Content goes here &lt;--</h3>
                 </div>
             </section>
-            <section className="bg-primary">
+            <section className="main-bottom bg-primary">
                 <div className="container d-flex align-items-center justify-content-around">
                     <div className="d-flex align-items-center">
                         <img src={digital} alt="Digital Comics" />

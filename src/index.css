@@ -2,7 +2,7 @@
 @import url("bootstrap-icons");
 
 
-.bg-dark {
+.main-top {
   .container {
     min-height: 20vh;
   }
@@ -18,4 +18,30 @@
     }
   }
 
+}
+
+footer {
+  background-image: url(../src/assets/img/footer-bg.jpg);
+}
+
+.footer-bottom {
+  padding: 25px;
+}
+
+.col-6 {
+  background-image: url(../src/assets/img/dc-logo-bg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+button {
+  background-color: transparent;
+  padding: 10px;
+  border: 2px solid rgba(13, 110, 253, 1);
+
+  a {
+    text-decoration: none;
+    color: white;
+
+  }
 }
