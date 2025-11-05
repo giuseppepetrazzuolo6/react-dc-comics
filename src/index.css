@@ -25,13 +25,14 @@
 }
 
 .card-img-top {
-  height: 166px;
-  overflow: hidden
+  width: 200px;
+  height: 200px;
 }
 
 .img-comics {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
 
 .bg-primary {
