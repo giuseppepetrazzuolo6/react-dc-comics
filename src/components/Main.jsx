@@ -7,12 +7,12 @@ import shop from '../assets/img/buy-comics-shop-locator.png'
 import visa from '../assets/img/buy-dc-power-visa.svg'
 
 
-export default function Main() {
+export default function Main({ comics }) {
 
     return (
         <main>
             <Jumbotron />
-            <ComicsList />
+            <ComicsList comics={comics} />
             <section className="main-bottom bg-primary">
                 <div className="container d-flex align-items-center justify-content-around">
                     <div className="d-flex align-items-center">
